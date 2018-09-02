@@ -1,0 +1,16 @@
+[package]
+name = "metalab-redalert"
+version = "0.1.0"
+authors = ["Andreas Monitzer <andreas@monitzer.com>"]
+
+[dependencies]
+log = "0.4.*"
+env_logger = "0.5.*"
+argparse = "0.2.*"
+curl = "0.4.*"
+chrono = "0.4"
+
+[dependencies.ical]
+version = "0.4.*"
+default-features = false
+features = ["ical"]
